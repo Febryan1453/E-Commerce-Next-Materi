@@ -1,0 +1,130 @@
+nav{
+    padding: 20px 0px !important;
+}
+
+.bg-nav{
+  background-color: #0E4C6F;
+}
+
+.brand{
+    height: 35px;
+    padding-right: 35px;
+}
+.detail-produk{
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.detail-produk nav ol li a{
+    text-decoration: none;
+} 
+
+.footer-color{
+    background-color: #EAF5FA;
+  }
+
+  .detail-produk .flash{
+      margin-top: -10px;
+      margin-bottom: -2px;
+  }
+
+  .card .btn-block, .detail-produk .btn-block, .keranjang-produk .btn-block, .checkout .btn-block{
+    background-color: #2B9BD8;
+    border-color: #2B9BD8;
+  }
+
+  .card .btn-block:hover, .detail-produk .btn-block:hover{
+    width: 100%;
+    background-color: #6ab2d8;
+    border-color: #6ab2d8;
+  }
+
+  nav .border-none{
+      border: none;    
+  }
+
+  nav ul li .nav-link{
+    font-weight: 400;
+    margin-right: 18px;
+}
+
+nav ul li .nav-link:hover{
+    font-weight: 600;
+    color: white !important;
+}
+
+.keranjang-produk{
+    padding-top: 100px;
+    margin-bottom: 50px;
+}
+
+.keranjang-produk nav ol li a{
+    text-decoration: none;
+} 
+
+.keranjang-produk .flash{
+    margin-top: -15px;
+    margin-bottom: -7px;
+}
+
+.keranjang-produk .btn-block:hover{
+    background-color: #6ab2d8;
+    border-color: #6ab2d8;
+}
+
+.checkout{
+    padding-top: 100px;
+    margin-bottom: 50px;
+}
+
+.checkout nav ol li a{
+    text-decoration: none;
+}
+
+.checkout .flash{
+    margin-top: -15px;
+    margin-bottom: -7px;
+}
+
+.checkout .btn-block:hover{
+    background-color: #6ab2d8;
+    border-color: #6ab2d8;
+}
+
+.checkout .btn-dark{
+    background-color: #0E4C6F;
+    border-color: #0E4C6F;
+}
+.checkout .btn-dark:hover{
+    background-color: #1f7bb1;
+    border-color: #1f7bb1;
+}
+
+.checkout .icon-bank{
+    vertical-align: middle;
+}
+@media(max-width:940px){
+    .checkout .icon-bank{
+        vertical-align: top;
+    }
+}
+
+.history{
+    padding-top: 100px;
+    margin-bottom: 50px;
+}
+.history nav ol li a{
+    text-decoration: none;
+}
+.history .flash{
+    margin-top: -15px;
+    margin-bottom: -7px;
+}
+.history .btn-dark{
+    background-color: #0E4C6F;
+    border-color: #0E4C6F;
+}
+.history .btn-dark:hover{
+    background-color: #1f7bb1;
+    border-color: #1f7bb1;
+}
